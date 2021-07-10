@@ -1,11 +1,27 @@
 {
   "name": "@galtz-library/eslint-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "galtz0321@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "eslint"
+  ],
+  "main": "lib/vanilla.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "format": "prettier --write lib/**/*.js",
+    "lint": "eslint lib/**/*.js",
+    "clear": "rm -rf node_modules"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.24.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.30.0"
+  }
 }
