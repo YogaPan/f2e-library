@@ -1,16 +1,19 @@
 {
-  "name": "@galtz-library/browserslist-config",
-  "version": "0.2.1",
+  "name": "@galtz-library/prettier-config",
+  "version": "0.1.0",
   "description": "",
   "author": "galtz0321@gmail.com",
   "license": "ISC",
   "keywords": [
-    "browserslist"
+    "prettier"
   ],
   "main": "index.js",
   "scripts": {
     "format": "prettier --write index.js",
     "lint": "eslint index.js",
     "clear": "rm -rf node_modules"
+  },
+  "peerDependencies": {
+    "prettier": "^2.3.2"
   }
 }
