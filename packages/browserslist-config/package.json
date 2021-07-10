@@ -16,7 +16,6 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write index.js",
-    "lint": "eslint index.js",
-    "clear": "rm -rf node_modules"
+    "lint": "eslint index.js"
   }
 }

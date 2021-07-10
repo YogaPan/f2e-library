@@ -19,8 +19,7 @@
   ],
   "scripts": {
     "format": "prettier --write lib/**/*.js",
-    "lint": "eslint lib/**/*.js",
-    "clear": "rm -rf node_modules"
+    "lint": "eslint lib/**/*.js"
   },
   "dependencies": {
     "eslint-config-prettier": "^8.3.0",
