@@ -13,6 +13,9 @@
     "url": "https://github.com/YogaPan/f2e-library.git",
     "directory": "packages/browserslist-config"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "format": "prettier --write index.js",

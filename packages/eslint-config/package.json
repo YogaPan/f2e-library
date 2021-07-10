@@ -13,6 +13,9 @@
     "url": "https://github.com/YogaPan/f2e-library.git",
     "directory": "packages/eslint-config"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "lib/vanilla.js",
   "files": [
     "/lib"
