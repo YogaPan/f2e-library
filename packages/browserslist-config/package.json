@@ -1,6 +1,6 @@
 {
   "name": "@galtz-library/browserslist-config",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "common browserslist config",
   "author": "galtz0321@gmail.com",
   "license": "ISC",
