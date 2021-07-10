@@ -1,12 +1,18 @@
 {
   "name": "@galtz-library/eslint-config",
   "version": "0.1.0",
-  "description": "",
+  "description": "common eslint config",
   "author": "galtz0321@gmail.com",
   "license": "ISC",
   "keywords": [
     "eslint"
   ],
+  "homepage": "https://github.com/YogaPan/f2e-library/tree/master/packages/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YogaPan/f2e-library.git",
+    "directory": "packages/eslint-config"
+  },
   "main": "lib/vanilla.js",
   "files": [
     "/lib"

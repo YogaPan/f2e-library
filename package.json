@@ -1,6 +1,13 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "format": "lerna run format",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "clear": "lerna run clear && rm -rf node_modules",
+    "version": "lerna version"
+  },
   "devDependencies": {
     "@galtz-library/eslint-config": "file:packages/eslint-config",
     "@galtz-library/prettier-config": "file:packages/prettier-config",
