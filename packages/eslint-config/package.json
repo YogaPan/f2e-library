@@ -1,6 +1,6 @@
 {
   "name": "@galtz-library/eslint-config",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "common eslint config",
   "author": "Galtz Pan <galtz0321@gmail.com>",
   "license": "MIT",
