@@ -1,9 +1,9 @@
 {
   "name": "@galtz-library/prettier-config",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "common prettier config",
-  "author": "galtz0321@gmail.com",
-  "license": "ISC",
+  "author": "Galtz Pan <galtz0321@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "prettier"
   ],
@@ -13,6 +13,7 @@
     "url": "https://github.com/YogaPan/f2e-library.git",
     "directory": "packages/prettier-config"
   },
+  "bugs": "https://github.com/YogaPan/f2e-library/issues",
   "publishConfig": {
     "access": "public"
   },
