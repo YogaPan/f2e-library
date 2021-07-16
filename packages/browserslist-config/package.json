@@ -2,8 +2,8 @@
   "name": "@galtz-library/browserslist-config",
   "version": "0.2.4",
   "description": "common browserslist config",
-  "author": "galtz0321@gmail.com",
-  "license": "ISC",
+  "author": "Galtz Pan <galtz0321@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "browserslist"
   ],
@@ -13,6 +13,7 @@
     "url": "https://github.com/YogaPan/f2e-library.git",
     "directory": "packages/browserslist-config"
   },
+  "bugs": "https://github.com/YogaPan/f2e-library/issues",
   "publishConfig": {
     "access": "public"
   },
