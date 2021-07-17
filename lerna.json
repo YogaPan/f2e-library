@@ -6,7 +6,14 @@
   "command": {
     "version": {
       "push": false,
-      "message": "chore(release): publish"
+      "message": "chore(release): publish",
+      "ignoreChanges": [
+        ".*",
+        "./*.md",
+        "lerna.json",
+        "package.json",
+        "package-lock.json"
+      ]
     }
   }
 }
