@@ -15,7 +15,7 @@
   "devDependencies": {
     "@galtz-library/eslint-config": "file:packages/eslint-config",
     "@galtz-library/prettier-config": "file:packages/prettier-config",
-    "eslint": "^7.30.0",
+    "eslint": "^7.31.0",
     "lerna": "^4.0.0",
     "prettier": "^2.3.2"
   }
