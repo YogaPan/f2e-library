@@ -1,6 +1,6 @@
 {
   "name": "@galtz-library/prettier-config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "common prettier config",
   "author": "Galtz Pan <galtz0321@gmail.com>",
   "license": "MIT",

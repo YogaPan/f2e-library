@@ -61,11 +61,11 @@ extends @galtz-library/browserslist-config
 
 ## Development Workflow
 
-1. 執行 `npx lerna bootstrap` 安裝 dependencies。
+1. 執行 `npm run bootstrap` 安裝 dependencies。
 2. 開啟 branch 進行開發，branch 名稱使用 `build|ci|docs|feat|fix|perf|refactor|test` 開頭並加上斜線 `/`，例如：`feat/add-react-eslint-config`。
 3. 修改程式並 commit，commit message 遵守 [Angular Convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md)。
-4. 執行 `npx lerna version`， Lerna 會為修改過的 package 進版，接著 commit、上 tag。
-5. push 至 Github，發起 merge request。
+4. 執行 `npm run release`， Lerna 會為修改過的 package 進版，接著 commit、上 tag。
+5. Push 至 Github，手動發起 merge request。
 6. 自動觸發 Github Actions 的 test job，運行腳本確認程式碼品質正常後手動 merge 進 master branch。
 7. 自動觸發 Github Actions 的 publish job，運行腳本確認程式碼品質正常後自動發布至 npm。
 
