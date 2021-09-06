@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["Parens", "browserslist", "postversion", "preversion"]
+  "cSpell.words": [
+    "browserslist",
+    "browserslistrc",
+    "NVMRC",
+    "Parens",
+    "postversion",
+    "prettierrc",
+    "preversion"
+  ]
 }
