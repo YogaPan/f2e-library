@@ -1,6 +1,6 @@
 {
   "name": "@galtz-library/browserslist-config",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "common browserslist config",
   "author": "Galtz Pan <galtz0321@gmail.com>",
   "license": "MIT",
