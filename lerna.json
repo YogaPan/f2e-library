@@ -11,9 +11,9 @@
       "ignoreChanges": [
         ".*",
         "./*.md",
-        "lerna.json",
-        "package.json",
-        "package-lock.json"
+        "./package.json",
+        "./package-lock.json",
+        "./lerna.json"
       ]
     }
   }
