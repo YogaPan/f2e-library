@@ -59,17 +59,23 @@ extends @galtz-library/browserslist-config
 
 詳細規則在 [./packages/browserslist-config/index.js](./packages/browserslist-config/index.js)。
 
-## Development Workflow
+## Development
+
+### Workflow
 
 1. 執行 `npm run bootstrap` 安裝 dependencies。
 2. 開啟 branch 進行開發，branch 名稱使用 `build|ci|docs|feat|fix|perf|refactor|test` 開頭並加上斜線 `/`，例如：`feat/add-react-eslint-config`。
 3. 修改程式並 commit，commit message 遵守 [Angular Convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md)。
-4. 執行 `npm run release`， Lerna 會為修改過的 package 進版，接著 commit、上 tag。
-5. Push 至 Github，手動發起 merge request。
+4. 執行 `npm run release`， Lerna 會為修改過的 package 進版，接著 commit、上 tag、產生 changelog。
+5. Push 至 Github，手動發起 pull request。
 6. 自動觸發 Github Actions 的 test job，運行腳本確認程式碼品質正常後手動 merge 進 master branch。
 7. 自動觸發 Github Actions 的 publish job，運行腳本確認程式碼品質正常後自動發布至 npm。
 
 參考我的 Blog 文章：[用 Lerna 管理共同前端設定，並透過 Github Actions 自動發布至 npm](https://galtz.netlify.app/f2e-common-config/)。
+
+### Depfu
+
+[Depfu](https://depfu.com/) 會在 npm packages 有新版本時發出 PR 且列出 changelog，方便我們進行例行性套件升級。
 
 ## License
 
