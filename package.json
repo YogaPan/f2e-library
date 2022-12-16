@@ -17,6 +17,6 @@
     "@galtz-library/prettier-config": "file:packages/prettier-config",
     "eslint": "^7.32.0",
     "lerna": "^4.0.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.8.1"
   }
 }
